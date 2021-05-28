@@ -20,3 +20,8 @@ end
 ## 3.数组连接
 
 puts games.join(",")
+
+
+### 判断是否是一个数组
+if games.respond_to("each")
+end
